@@ -1,4 +1,4 @@
-import "./Market.css";
+import "./MarketAnalysis.css";
 
 export default function Market() {
   const dummyMarket = [

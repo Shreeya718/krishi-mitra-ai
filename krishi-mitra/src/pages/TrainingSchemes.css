@@ -1,0 +1,49 @@
+.training-schemes-screen {
+  background: url("https://tse3.mm.bing.net/th/id/OIP.YHvH4f3ggq3HGjCsSqDD4AHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3")
+    no-repeat center center fixed;
+  background-size: cover;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Baloo 2', cursive;
+  color: #1e293b;
+}
+
+/* Keep cards readable on image */
+.training-card, .scheme-card {
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent for clarity */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.training-card:hover, .scheme-card:hover {
+  transform: scale(1.05);
+}
+
+.training-card {
+  border-left: 6px solid #22c55e; /* Green */
+}
+
+.scheme-card {
+  border-left: 6px solid #3b82f6; /* Blue */
+}
+
+.audio-btn {
+  margin-top: 0.5rem;
+  background: #14532d;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.audio-btn:hover {
+  background: #166534;
+}
