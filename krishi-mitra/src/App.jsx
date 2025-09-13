@@ -13,6 +13,8 @@ import Notifications from "./pages/Notifications";
 import Escalation from "./pages/Escalation";
 import LocalMarket from "./pages/LocalMarket";
 import TrainingSchemes from "./pages/TrainingSchemes"; // ✅ new import
+import CommunityForum from "./pages/CommunityForum"; // ✅ new import
+import Ledger from "./pages/Ledger"; // ✅ new import
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -36,6 +38,8 @@ export default function App() {
         <Route path="/escalation" element={<Escalation />} />
 
         <Route path="/training-schemes" element={<TrainingSchemes />} /> {/* ✅ new route */}
+        <Route path="/community-forum" element={<CommunityForum />} /> {/* ✅ new route */}
+        <Route path="/ledger" element={<Ledger />} /> {/* ✅ new route */}
       </Routes>
     </BrowserRouter>
   );

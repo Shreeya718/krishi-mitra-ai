@@ -1,0 +1,43 @@
+.ledger-screen {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.ledger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.ledger-card {
+  background: #fff;
+  border-left: 6px solid #22c55e; /* green edge */
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.query {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.response {
+  font-size: 15px;
+  color: #14532d;
+  margin-bottom: 5px;
+}
+
+.officer {
+  font-size: 14px;
+  color: #555;
+}

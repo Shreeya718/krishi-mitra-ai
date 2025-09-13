@@ -21,7 +21,7 @@ export default function Dashboard() {
     { title: "Ask AI", icon: <MessageSquare size={32} />, path: "/query" }, // kept Ask AI
     { title: "Notifications", icon: <Bell size={32} />, path: "/notifications" },
     { title: "Local Market Support", icon: <MapPin size={32} />, path: "/local-market" },
-    { title: "Community Forum", icon: <Users size={32} />, path: "/forum" },
+    { title: "Community Forum", icon: <Users size={32} />, path: "/community-forum" }, // ✅ fixed path
     { title: "Farmer Helpline", icon: <PhoneCall size={32} />, path: "/helpline" },
     { title: "Secure Ledger", icon: <ShieldCheck size={32} />, path: "/ledger" },
   ];
